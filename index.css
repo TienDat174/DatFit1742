@@ -1,0 +1,58 @@
+*{margin: 0;padding: 0;}
+
+.popup{
+    position:fixed ;
+    width: 400px;
+    height: 150px;
+    background-color:#dfe6e9;
+    border-radius: 10px;
+    box-shadow:1px 1px black;
+    margin-left: 600px;
+    margin-top: 250px;
+    transition:0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.hienpopup{
+  transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    
+}
+.cancel{
+  position: absolute;
+  width: 20px;
+  border-radius: 30px;
+  border: none;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+.logo{
+  position: absolute;
+  border: 1px solid #e17055;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-left: 160px;
+  top: 10px;
+}
+.logo i{
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #e17055;
+  font-size: 35px;
+}
+.label{
+  position: absolute;
+  width: 100%;
+  margin:85px 0 0 0;
+}
+.label p{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #e17055;
+  text-align: center;
+}
